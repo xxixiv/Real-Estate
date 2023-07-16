@@ -317,7 +317,7 @@ background: var(--font-color);
 
 .footerText p
 {
-font-size: .5rem;
+font-size: 1.5rem;
 color: var(--primary-color);
 }
 
@@ -347,6 +347,6 @@ box-shadow: 0 0 1rem var(--base-color);
 
 .footer-iconTop a i
 {
-font-size: 1.3rem;
+font-size: 1.5rem;
 color: var(--primary-color);
 }
