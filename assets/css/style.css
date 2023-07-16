@@ -170,8 +170,8 @@ header .logo.col
   .content .bannerText
   {
       position: relative;
-      max-width: 500px;
-      margin-right: 50px;
+      max-width: 60%;
+      margin-right: 10%;
   }
   
   .content .bannerText div
@@ -186,7 +186,7 @@ header .logo.col
 
   .content .bannerText h2
   {
-      font-size: 40px;
+      font-size: 35px;
       text-transform: uppercase;
       font-weight: 800;
       line-height: 1.2em;

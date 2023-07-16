@@ -198,8 +198,14 @@
 
 
 @media (max-width: 376px) {
+
     header .logo
     {
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .toggle
+    {
+        margin-left: 20%;
     }
 }
