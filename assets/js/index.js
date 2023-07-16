@@ -97,6 +97,7 @@ window.onscroll = () => {
    header.classList.toggle('sticky', window.scrollY > 100);
 
    menuIcon.classList.remove('act');
+   nav.classList.remove('acti')
 };
 
 
