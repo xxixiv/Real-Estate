@@ -1,1 +1,1 @@
-A dummy page for Ral estate housing!
+A dummy page for Real estate housing!
