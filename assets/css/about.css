@@ -17,28 +17,25 @@
 
   .box-container
   {
-    bottom: 10%;
     width: 50%;
     height: 80%;
-    background-color: var(--primary-color);
+    background-color: transparent;
     border-radius: 10px;
     padding: 20px 30px;
     display: flex;
     justify-content: center;
     margin-left: 26vw;
-    margin-top: 10vw;
     align-items: center;
     transition: 0.3s all;
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.6);
   }
 
   .box
   {
-    margin-top: 50px;
+    margin-top: 30vh;
     width: 95%;
     height: 95%;
-    background-color: transparent;
-    cursor: pointer;
+    background-color: var(--primary-color);
+    padding: 20px 30px;
     border-radius: 10px;
     display: flex;
     align-items: center;
