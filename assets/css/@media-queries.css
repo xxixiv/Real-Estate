@@ -93,7 +93,7 @@
     }
     .toggle
     {
-        margin-left: 40vw;
+        margin-left: 25px;
     }
 
     header ul
@@ -133,7 +133,7 @@
     header ul li a:hover:before,
     header ul li a.active:before
   {
-      max-width: 100%;
+      width: 100%;
   }
 
   .container
@@ -190,6 +190,16 @@
     padding: 13% 13% 15%;
   }
 
+  .houses
+  {
+    width: 100vw;
+  }
+
+  .about
+  {
+    width: 100vw;
+  }
+
   header .logo
   {
       font-size: 19px;
@@ -213,10 +223,4 @@
     {
         font-size: 12px;
     }
-
-    .toggle
-    {
-        margin-left: 20%;
-    }
-
 }
