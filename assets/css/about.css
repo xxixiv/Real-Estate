@@ -1,33 +1,46 @@
 .about
 {
-    min-height: 100vh;
+    min-height: 110vh;
     background: url(../img/img\ \ 11.jpg);
     background-size:cover;
 }
 
 
-.box-container {
+/* .box-container {
     width: 80%;
     height: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     z-index: 1;
+  } */
+
+  .box-container
+  {
+    bottom: 10%;
+    width: 50%;
+    height: 80%;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 26vw;
+    margin-top: 10vw;
+    align-items: center;
+    transition: 0.3s all;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.6);
   }
 
   .box
   {
-    margin-top: 90%;
-    width: 40%;
-    height: 80%;
-    background-color: #fff;
+    margin-top: 50px;
+    width: 95%;
+    height: 95%;
+    background-color: transparent;
     cursor: pointer;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-self: center;
     align-items: center;
     transition: 0.3s all;
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.6);
   }

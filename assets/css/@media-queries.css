@@ -93,7 +93,7 @@
     }
     .toggle
     {
-        margin-left: 40%;
+        margin-left: 40vw;
     }
 
     header ul
@@ -133,7 +133,7 @@
     header ul li a:hover:before,
     header ul li a.active:before
   {
-      width: 100%;
+      max-width: 100%;
   }
 
   .container
@@ -187,7 +187,7 @@
     .container
   {
     min-height: 100vh;
-    padding: 10% 13% 15%;
+    padding: 13% 13% 15%;
   }
 
   header .logo
@@ -197,7 +197,7 @@
 
   .footerText p
     {
-    font-size: .7rem;
+    font-size: .56rem;
     }
 
     .footer-iconTop a i

@@ -134,7 +134,11 @@ window.addEventListener('scroll', function() {
         link.classList.add('focl');
       });
       logo.classList.add('col');
-  } else if (scrollPosition >= homeSectionHeight + housesSectionHeight + aboutSectionHeight && scrollPosition < homeSectionHeight + housesSectionHeight + aboutSectionHeight + contactSectionHeight) {
+  } else if (scrollPosition >= homeSectionHeight + housesSectionHeight && scrollPosition < homeSectionHeight + housesSectionHeight + aboutSectionHeight) {
+    header.classList.add('scrolled');
+    logo.classList.add('col');
+  } 
+  else if (scrollPosition >= homeSectionHeight + housesSectionHeight + aboutSectionHeight && scrollPosition < homeSectionHeight + housesSectionHeight + aboutSectionHeight + contactSectionHeight) {
     header.classList.add('scrolled');
     logo.classList.add('col');
   } 
