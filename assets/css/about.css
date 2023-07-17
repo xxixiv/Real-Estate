@@ -54,11 +54,11 @@
     {
       width: 80%;
       height: 50%;
-      padding-left: 25px;
     }
 
     .box
     {
       margin-top: 20vw;
+      margin-left: 30px;
     }
   }
