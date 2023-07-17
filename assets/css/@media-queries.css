@@ -194,6 +194,16 @@
   {
       font-size: 19px;
   }
+
+  .footerText p
+    {
+    font-size: .4rem;
+    }
+
+    .footer-iconTop a i
+    {
+    font-size: 1.3rem;
+    }
 }
 
 
@@ -209,13 +219,4 @@
         margin-left: 20%;
     }
 
-    .footerText p
-    {
-    font-size: .2rem;
-    }
-
-    .footer-iconTop a i
-    {
-    font-size: 1.3rem;
-    }
 }
