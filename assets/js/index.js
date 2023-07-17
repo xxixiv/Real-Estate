@@ -111,14 +111,14 @@ window.addEventListener('scroll', function() {
   const homeSection = document.getElementById('home');
   const housesSection = document.getElementById('houses');
   const aboutSection = document.getElementById('about');
-  // const contactSection = document.getElementById('contact')
+  const contactSection = document.getElementById('contact')
   const logo = document.querySelector('header .logo')
   // Add more section variables as needed
   // Get the height of the sections
   const homeSectionHeight = homeSection.offsetHeight;
   const housesSectionHeight = housesSection.offsetHeight;
   const aboutSectionHeight = aboutSection.offsetHeight;
-  // const contactSectionHeight = contactSection.offsetHeight;
+  const contactSectionHeight = contactSection.offsetHeight;
   // Calculate the scroll position
   const scrollPosition = window.scrollY;
   
@@ -134,7 +134,7 @@ window.addEventListener('scroll', function() {
         link.classList.add('focl');
       });
       logo.classList.add('col');
-  } else if (scrollPosition >= homeSectionHeight + housesSectionHeight && scrollPosition < homeSectionHeight + housesSectionHeight + aboutSectionHeight) {
+  } else if (scrollPosition >= homeSectionHeight + housesSectionHeight + aboutSectionHeight && scrollPosition < homeSectionHeight + housesSectionHeight + aboutSectionHeight + contactSectionHeight) {
     header.classList.add('scrolled');
     logo.classList.add('col');
   } 

@@ -35,3 +35,9 @@ border-right: 1px solid var(--text-color);
 {
 padding-left: .75rem;
 } */
+
+.contact
+{
+  min-height: 100vh;
+  display: flex;
+}
